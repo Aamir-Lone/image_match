@@ -42,14 +42,13 @@ image_search/
 📦 Installation
 Clone this repository:
 
-git clone https://github.com/your-username/image-search-streamlit.git
-cd image-search-streamlit
+git clone https://github.com/Aamir-Lone/image_match
+
 (Optional but recommended) Create a virtual environment:
-
-
 python -m venv venv
 venv\Scripts\activate  # On Windows
 source venv/bin/activate  # On macOS/Linux
+
 Install dependencies:
 
 
@@ -58,6 +57,8 @@ If you don’t have a requirements.txt, just run:
 
 
 pip install streamlit torch torchvision scikit-learn pillow
+
+
 ▶️ Run the App
 
 streamlit run app.py
