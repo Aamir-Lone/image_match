@@ -30,9 +30,7 @@ Compares uploaded image with stored ones using cosine similarity
 Displays the top 5 matches with their similarity scores
 
 📁 Project Structure
-bash
-Copy
-Edit
+
 image_search/
 ├── app.py               # Main Streamlit app
 ├── images/              # Folder containing 50+ stored reference images
@@ -44,35 +42,24 @@ image_search/
 📦 Installation
 Clone this repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/image-search-streamlit.git
 cd image-search-streamlit
 (Optional but recommended) Create a virtual environment:
 
-bash
-Copy
-Edit
+
 python -m venv venv
 venv\Scripts\activate  # On Windows
 source venv/bin/activate  # On macOS/Linux
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 If you don’t have a requirements.txt, just run:
 
-bash
-Copy
-Edit
+
 pip install streamlit torch torchvision scikit-learn pillow
 ▶️ Run the App
-bash
-Copy
-Edit
+
 streamlit run app.py
 Upload your image from the UI.
 
